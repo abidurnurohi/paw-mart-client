@@ -26,4 +26,13 @@ Paw Mart is a full-stack pet adoption and pet products marketplace where users c
 - Order / adopt pets via modal form
 - View personal listings and orders
 - Protected routes for logged-in users
+
+## Tech Stack
+- React
+- React Router
+- Firebase Authentication
+- Node.js
+- Express
+- MongoDB
+- Tailwind CSS + DaisyUI
  
