@@ -3,7 +3,6 @@ import Product from '../Product/Product';
 
 const LatestProducts = ({ latestProductsPromise }) => {
     const products = use(latestProductsPromise);
-    console.log(products);
     return (
         <div>
             <h2 className='font-bold text-4xl text-green-500 text-center py-2'>Recent Listings</h2>
