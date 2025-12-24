@@ -5,7 +5,6 @@ import Product from '../Product/Product';
 const AllProducts = () => {
 
     const products = useLoaderData();
-    console.log(products);
     return (
         <div>
             <h2 className='font-bold text-4xl text-green-500 text-center py-2'>All Listings</h2>

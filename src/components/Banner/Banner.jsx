@@ -3,7 +3,6 @@ import React, { useState, useEffect } from "react";
 const Banner = ({ slides }) => {
     const [current, setCurrent] = useState(0);
 
-    // Auto slide every 4s
     useEffect(() => {
         const timer = setInterval(() => {
             setCurrent((prev) => (prev + 1) % slides.length);
