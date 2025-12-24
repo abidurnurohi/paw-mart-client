@@ -18,4 +18,12 @@ If you are developing a production application, we recommend using TypeScript wi
 
 # Description of my project - Paw Mart
 Paw Mart is a full-stack pet adoption and pet products marketplace where users can list, adopt, and order pets or pet-related products.
+
+## Features
+- User authentication (Email/Password & Google)
+- Browse pets & supplies
+- Create, Add, update, and delete listings
+- Order / adopt pets via modal form
+- View personal listings and orders
+- Protected routes for logged-in users
  
