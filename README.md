@@ -38,4 +38,11 @@ Paw Mart is a full-stack pet adoption and pet products marketplace where users c
 
 ## Live Project
 
+
+## Setup Instructions
+1. Clone the repository
+2. Run `npm install`
+3. Create a `.env` file and add Firebase credentials
+4. Run `npm run dev`
+
  
