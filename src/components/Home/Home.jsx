@@ -24,7 +24,6 @@ const Home = () => {
 
     return (
         <div>
-            {/* Banner Part */}
             <Banner slides={slides} />
 
             <LatestProducts latestProductsPromise={latestProductsPromise} />
