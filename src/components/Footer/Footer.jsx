@@ -7,7 +7,6 @@ const Footer = () => {
         <footer className="bg-green-500 text-white py-8 mt-10">
             <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-start md:items-center">
 
-                {/* Left: Logo & Description */}
                 <div className="mb-6 md:mb-0">
                     <h2 className="text-2xl font-bold">PawMart</h2>
                     <p className="mt-2 max-w-xs">
@@ -15,7 +14,6 @@ const Footer = () => {
                     </p>
                 </div>
 
-                {/* Middle: Useful Links */}
                 <div className="mb-6 md:mb-0">
                     <h3 className="text-xl font-semibold mb-2">Useful Links</h3>
                     <ul>
@@ -25,7 +23,6 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                {/* Right: Copyright */}
                 <div>
                     <p className="text-sm">
                         &copy; {new Date().getFullYear()} PawMart. All rights reserved.
