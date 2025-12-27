@@ -6,7 +6,7 @@ const MyOrders = () => {
     const [orders, setOrders] = useState([]);
     useEffect(() => {
         if (user?.email) {
-            fetch(`http://localhost:3000/orders?email=${user.email}`,{
+            fetch(`https://paw-mart-api-server-murex.vercel.app/orders?email=${user.email}`,{
                 headers:{
                     authorization: `Bearer ${user.accessToken}`
                 }

@@ -30,7 +30,7 @@ const router = createBrowserRouter([
       {
         path: 'allProducts',
         element: <AllProducts></AllProducts>,
-        loader: () => fetch('http://localhost:3000/products')
+        loader: () => fetch('https://paw-mart-api-server-murex.vercel.app/products')
       },
       {
         path: 'register',
@@ -50,12 +50,12 @@ const router = createBrowserRouter([
       },
       {
         path: 'productDetails/:id',
-        loader: ({params}) => fetch(`http://localhost:3000/products/${params.id}`),
+        loader: ({params}) => fetch(`https://paw-mart-api-server-murex.vercel.app/products/${params.id}`),
         element: <PrivateRoute><ProductDetails></ProductDetails></PrivateRoute>
       },
       {
         path: 'updateProduct/:id',
-        loader: ({params}) => fetch(`http://localhost:3000/products/${params.id}`),
+        loader: ({params}) => fetch(`https://paw-mart-api-server-murex.vercel.app/products/${params.id}`),
         element: <PrivateRoute><UpdateProduct></UpdateProduct></PrivateRoute>
       },
       {

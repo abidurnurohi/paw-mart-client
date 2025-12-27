@@ -28,7 +28,7 @@ const ProductDetails = () => {
             date: new Date()         
         };
 
-        fetch('http://localhost:3000/orders', {
+        fetch('https://paw-mart-api-server-murex.vercel.app/orders', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(newOrder)

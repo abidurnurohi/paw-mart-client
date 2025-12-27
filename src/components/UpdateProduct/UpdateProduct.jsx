@@ -19,7 +19,7 @@ const UpdateProduct = () => {
 
         const newListing = { title, image, price, location, email, description };
 
-        fetch(`http://localhost:3000/products/${product._id}`, {
+        fetch(`https://paw-mart-api-server-murex.vercel.app/products/${product._id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'

@@ -13,7 +13,7 @@ const MyListings = () => {
 
         const email = encodeURIComponent(user.email);
 
-        fetch(`http://localhost:3000/products?email=${email}`)
+        fetch(`https://paw-mart-api-server-murex.vercel.app/products?email=${email}`)
             .then(res => res.json())
             .then(data => setProducts(data));
     }, []);
@@ -30,7 +30,7 @@ const MyListings = () => {
         }).then((result) => {
             if (result.isConfirmed) {
 
-                fetch(`http://localhost:3000/products/${id}`, {
+                fetch(`https://paw-mart-api-server-murex.vercel.app/products/${id}`, {
                     method: 'DELETE',
                     headers: {
                         'content-type': 'application/json'

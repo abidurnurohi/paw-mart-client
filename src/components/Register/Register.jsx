@@ -28,7 +28,7 @@ const Register = () => {
                     image: photo
                 };
 
-                fetch('http://localhost:3000/users', {
+                fetch('https://paw-mart-api-server-murex.vercel.app/users', {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json'
@@ -49,7 +49,7 @@ const Register = () => {
                     image: result.user.photoURL
                 };
 
-                fetch('http://localhost:3000/users', {
+                fetch('https://paw-mart-api-server-murex.vercel.app/users', {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json'

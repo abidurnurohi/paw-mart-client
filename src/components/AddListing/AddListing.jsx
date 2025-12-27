@@ -16,7 +16,7 @@ const AddListing = () => {
 
         const newListing = { title, image, price, location, email, description };
 
-        fetch('http://localhost:3000/products', {
+        fetch('https://paw-mart-api-server-murex.vercel.app/products', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
