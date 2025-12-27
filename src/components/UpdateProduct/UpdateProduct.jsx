@@ -7,7 +7,6 @@ const UpdateProduct = () => {
     const { user } = use(AuthContext);
 
     const product = useLoaderData();
-    console.log(product);
     const handleAddProduct = e => {
         e.preventDefault();
         const form = e.target;
@@ -17,7 +16,6 @@ const UpdateProduct = () => {
         const location = form.location.value;
         const email = form.email.value;
         const description = form.description.value;
-        console.log(title, image, price, location, email, description);
 
         const newListing = { title, image, price, location, email, description };
 
@@ -30,7 +28,6 @@ const UpdateProduct = () => {
         })
             .then(res => res.json())
             .then(data => {
-                console.log(data);
                 if (data.modifiedCount > 0) {
                     Swal.fire({
                         position: "top-end",

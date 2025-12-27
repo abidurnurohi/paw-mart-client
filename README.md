@@ -45,4 +45,8 @@ Paw Mart is a full-stack pet adoption and pet products marketplace where users c
 3. Create a `.env` file and add Firebase credentials
 4. Run `npm run dev`
 
+## Server Repository
+Paw Mart Server (separate repo)
+
+
  
